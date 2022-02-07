@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  web:
+    image: tomcat:9.0.1-jre8-alpine  
+    command: ["catalina.sh", "run"]
+    ports:
+      - "8888:8080"
+    volumes:      
+      - ./target/XXE.war:/usr/local/tomcat/webapps/XXE.war
+      - ./catalina.properties:/usr/local/tomcat/conf/catalina.properties

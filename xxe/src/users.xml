@@ -1,0 +1,12 @@
+<users>
+    <user>
+        <fname>John</fname>
+        <lname>Doe</lname>
+        <email>john.doe@mail.com</email>
+    </user>
+    <user>
+        <fname>Jane</fname>
+        <lname>Doe</lname>
+        <email>jane.doe@mail.com</email>
+    </user>
+</users>    
